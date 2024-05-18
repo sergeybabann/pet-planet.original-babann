@@ -83,6 +83,22 @@
     font-weight: 700;
     text-align: center;
     color: $light;
+    outline: 1px solid transparent;
+    transition-property: background-color, transform;
+    transition-duration: 0.3s, 0.1s;
+    transition-timing-function: ease-in-out;
+
+    &:hover {
+      background: #00772f;
+    }
+
+    &:focus-visible {
+      outline-color: $carrot;
+    }
+
+    &:active {
+      transform: scale(0.9);
+    }
 
     &:after {
       content: '';
@@ -90,6 +106,14 @@
       width: 16px;
       height: 16px;
       background: url('/img/arrow-to-store.svg') no-repeat center/contain;
+    }
+
+    @include laptop {
+      padding: 16px 36px;
+    }
+
+    @include mobile {
+      padding: 11px 24px;
     }
   }
 }

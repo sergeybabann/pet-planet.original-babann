@@ -1,2 +1,2 @@
 1 day:
-video stop: 38.41
+video stop: 46.00
