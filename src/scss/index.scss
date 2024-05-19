@@ -1,9 +1,11 @@
-@use "default";
-@use "components/header";
-@use "components/hero";
-@use "components/about";
-@use "components/advantages";
-@use "components/subscribe";
-@use "components/footer";
+@use 'default';
+@use 'components/header';
+@use 'components/hero';
+@use 'components/about';
+@use 'components/advantages';
+@use 'components/subscribe';
+@use 'components/footer';
+@use 'components/store';
+@use 'components/product';
 
-@import "normalize.css";
+@import 'normalize.css';
